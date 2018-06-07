@@ -7,8 +7,8 @@
 
   <body>
 
-    <h1>Form Input 2</h1>
-    <p>Demo of how to take form input and pass it to a C program - all in a single page</p>
+    <h1>Our App</h1>
+    <p>Choose the option to add expenses or to subtract an expense from a budget</p>
 
     <?php
        // define variables and set to empty values
@@ -17,7 +17,7 @@
        if ($_SERVER["REQUEST_METHOD"] == "POST") {
          $budget = test_input($_POST["budget"]);
          $expense = test_input($_POST["expense"]);
-         $result = system( "/usr/lib/website/actualba " . $budget . " " . $expense); 
+         $result = system( "/usr/lib/student3/wesbite/add.c " . $budget . " " . $expense); 
        }
 
        function test_input($data) {
