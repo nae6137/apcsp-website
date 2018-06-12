@@ -6,9 +6,9 @@ int main()
 
 {
 
-    int arg1budget;
-    int arg2expense;
-    int arg3;
+    float arg1budget;
+    float arg2expense;
+    float arg3;
     printf("\nEnter the value of budget\n");
     scanf ("%f", &arg1budget);
     printf("\nEnter the value of expense\n");
