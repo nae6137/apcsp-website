@@ -15,7 +15,7 @@
        if ($_SERVER["REQUEST_METHOD"] == "POST") {
          $arg1budget = test_input($_POST["budget"]);
          $arg2expense = test_input($_POST["expense"]);
-         exec("/usr/lib/cgi-bin/student3/add " . $arg1budget . " " . $arg2expense, $output, $retc); 
+         exec("/usr/lib/cgi-bin/student3/sathyaadd " . $arg1budget . " " . $arg2expense, $output, $retc); 
        }
        function test_input($data) {
          $data = trim($data);
