@@ -19,7 +19,7 @@ int main()
     {
 	  for (arg1budget = &arg1budget; arg2expense = &arg2budget);
 		{
-		printf("Out of your budget: %f, you spent %f, and your remaining money is: %f\n",arg3remainingmoney );
+		printf("Out of your budget: %f, you spent %f, and your remaining money is: %d\n",arg3remainingmoney );
 		}
 	}
       
@@ -27,7 +27,7 @@ int main()
       printf("Out of money\n");
     }
       else{
-        printf("Still within budget!");
+        printf("Still within budget!\n");
     }
 
 
