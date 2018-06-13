@@ -10,16 +10,16 @@ int main()
     int arg2expense;
     int arg3remainingmoney;
     printf("\nEnter the value of budget\n");
-    scanf ("%f", &arg1budget);
+    scanf ("%d", &arg1budget);
     printf("\nEnter the value of expense\n");
-    scanf ("%f", &arg2expense);
+    scanf ("%d", &arg2expense);
 
     arg3remainingmoney = arg1budget - arg2expense;
 
     {
 	  for (arg1budget = &arg1budget; arg2expense = &arg2budget);
 		{
-		printf("Out of your budget: %f, you spent %f, and your remaining money is: %d\n",arg3remainingmoney );
+		printf("Out of your budget: %d, you spent %d, and your remaining money is: %d\n",arg3remainingmoney );
 		}
 	}
       
