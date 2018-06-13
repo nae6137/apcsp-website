@@ -14,7 +14,7 @@ int main()
     printf("\nEnter the value of expense\n");
     scanf ("%f", &arg2expense);
 
-    arg3rema iningmoney = arg1budget - arg2expense;
+    arg3remainingmoney = arg1budget - arg2expense;
 
     {
 	  for (arg1budget = &arg1budget; arg2expense = &arg2budget);
