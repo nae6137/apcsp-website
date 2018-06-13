@@ -27,7 +27,7 @@ int main()
       printf("Out of money\n");
     }
       else{
-        printf("Still within budget!");
+        printf("Still within budget!\n");
     }
 
 
