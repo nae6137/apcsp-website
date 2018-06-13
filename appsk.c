@@ -30,12 +30,12 @@ arg3 = arg2 / arg1;
 float arg4;
 arg4 = 1 - arg3;
 
-  printf("The remaining amount is: %d and %d diff=%d\n", arg1, arg2, arg1-arg2);
+  printf("The budget and expense entered respectively were and the : %d and %d diff=%d\n", arg1, arg2, arg1-arg2);
 
-  if (0 < arg3 < 1) 
-  { printf(" And the proportion spent is: %d\n", arg3);
-  return 1;}
+  if (arg3 > 0) 
+  { printf("And the proportion spent is: %d\n", arg3);
+  }
   if (arg4 > 0)
  { printf("And the proportion remaining is: %d\n", arg4);
-  return 1;}
+  }
 }
